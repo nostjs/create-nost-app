@@ -1,0 +1,28 @@
+{
+  "name": "create-nost-app",
+  "version": "0.0.1",
+  "description": "Developed with NostJS.",
+  "main": "build/index.js",
+  "bin": {
+    "create-nost-app": "bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "watch": "tsc --watch tsconfig.json",
+    "run-build": "npm run build && node build/index.js",
+    "run-watch": "npm run watch && nodemon build/index.js"
+  },
+  "dependencies": {
+    "colors": "^1.3.3",
+    "jsonfile": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/jsonfile": "^5.0.0",
+    "@types/node": "^11.9.6",
+    "tslint": "^5.13.0",
+    "typescript": "^3.3.3333"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
