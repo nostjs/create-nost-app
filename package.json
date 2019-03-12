@@ -1,16 +1,16 @@
 {
   "name": "create-nost-app",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Developed with NostJS.",
   "main": "build/index.js",
   "bin": {
     "create-nost-app": "bin/index.js"
   },
   "scripts": {
-    "build": "tsc --build tsconfig.json",
-    "watch": "tsc --watch tsconfig.json",
-    "run-build": "npm run build && node build/index.js",
-    "run-watch": "npm run watch && nodemon build/index.js"
+    "build": "tsc --build",
+    "watch": "tsc --watch",
+    "run": "node build/index.js",
+    "mon": "nodemon build/index.js"
   },
   "dependencies": {
     "colors": "^1.3.3",
