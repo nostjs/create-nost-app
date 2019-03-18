@@ -16,7 +16,7 @@ export default ($path: string) => {
     "scripts": {
       "build": "tsc --build",
       "watch": "tsc --watch",
-      "run": "node build/index.js",
+      "app": "node build/index.js",
       "mon": "nodemon build/index.js",
     },
     "keywords": [],
