@@ -13,4 +13,5 @@ deploy:
   on:
     tags: true
     tag: beta
+    branch: master
     repo: nostjs/create-nost-app
